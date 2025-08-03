@@ -42,14 +42,23 @@
       padding: 10px 0;
       font-size: 18px;
     }
-    section.screenshot {
+    section.screenshots {
       text-align: center;
-      padding: 30px;
+      padding: 40px 20px;
     }
-    section.screenshot img {
-      max-width: 90%;
+    section.screenshots h2 {
+      margin-bottom: 24px;
+    }
+    .screenshot-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .screenshot-gallery img {
+      width: 280px;
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     }
     .download {
       text-align: center;
@@ -89,13 +98,15 @@
     </ul>
   </section>
 
-  <section class="screenshot">
-    <h2>📸 App Screenshot</h2>
-    <img src="FQ_1.png" alt="Flagz Quiz Screenshot">
-    <img src="FQ_2.png" alt="Flagz Quiz Screenshot">
-    <img src="FQ_3.png" alt="Flagz Quiz Screenshot">
-    <img src="FQ_4.png" alt="Flagz Quiz Screenshot">
-    <img src="FQ_6.png" alt="Flagz Quiz Screenshot">
+  <section class="screenshots">
+    <h2>📸 App Screenshots</h2>
+    <div class="screenshot-gallery">
+      <img src="FQ_1.png" alt="Screenshot 1">
+      <img src="FQ_2.png" alt="Screenshot 2">
+      <img src="FQ_3.png" alt="Screenshot 3">
+      <img src="FQ_4.png" alt="Screenshot 4">
+      <img src="FQ_6.png" alt="Screenshot 5">
+    </div>
   </section>
 
   <div class="download">
@@ -103,7 +114,7 @@
   </div>
 
   <footer>
-    &copy; 2025 Flagz Quiz by Gursimran Singh | Contact: gursimran1132@gmail.com
+    &copy; 2025 Flagz Quiz by Tintin Apps | Contact: support@flagzquiz.app
   </footer>
 
 </body>
